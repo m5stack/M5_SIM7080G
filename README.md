@@ -6,9 +6,9 @@ Contains M5Stack **M5 SIM7080G** series related case programs. The hardware is b
 
 ## Related Link
 
-[Docment & AT Command](https://docs.m5stack.com/en/unit/cat_m)
+- [Document & AT Command](https://docs.m5stack.com/en/unit/cat_m)
 
 ## License
 
-[ATOM DTU NB - MIT](LICENSE)
+- [ATOM DTU NB - MIT](LICENSE)
 
