@@ -26,8 +26,21 @@ void M5_SIM7080G::sendMsg(String command) {
 }
 
 
+String M5_SIM7080G::getMsg() {
+    String restr ="";
+    while(1){
+        if(Serial2.available()) {
+            restr = restr + (char)Serial2.read();
+        }else{
+            break;
+        }
+    }
+    return restr;
+}   
 
-
-
+String M5_SIM7080G::send_and_getMsg(String str) {
+    sendMsg(str);
+    return getMsg();
+}
 
 

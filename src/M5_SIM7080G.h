@@ -10,4 +10,6 @@ class M5_SIM7080G
         bool checkStatus();
         String waitMsg(unsigned long time);
         void sendMsg(String command);
+        String getMsg();
+        String send_and_getMsg(String str);
 };
